@@ -8,18 +8,21 @@
 	</head>
 	<body>
 		<div class="login">
-			<h1>Login</h1>
-			<form action="authenticate.php" method="post">
+			<h1>Register</h1>
+			<form action="register.php" method="post">
 				<label for="username">
 					<i class="fas fa-user"></i>
 				</label>
 				<input type="text" name="username" placeholder="Username" id="username" required>
-				<label for="password">
+                <label for="email">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="text" name="email" placeholder="Email" id="email" required>
+				<label for="email">
 					<i class="fas fa-lock"></i>
 				</label>
 				<input type="password" name="password" placeholder="Password" id="password" required>
-				<input type="submit" value="Login">
-                <a href="register.html"><h5 id="reglink">Not registered? Click here to register.</h5></a>
+				<input type="submit" value="Register">
 			</form>
 		</div>
 	</body>
